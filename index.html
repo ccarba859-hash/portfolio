@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Portfolio</title>
     <link rel="stylesheet" href="style.css"  type="stylesheet">
-
     <style>
- *{
+*{
   box-sizing: border-box;
   margin: 0px;
   padding:0px
@@ -15,118 +14,98 @@
  .container{
   /*  grid-template-columns: repeat( 5fr,10*);
   grid-template-rows: repeat( auto, 100px) */
-   grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ; 
-   grid-template-rows:auto 100px 100px 100px 100px 100px 100px 75px 60px;
+   grid-template-columns:  5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ; 
+   grid-template-rows:auto  100px 100px 100px 100px 100px 100px 100px 100px 75px 60px;
   display:grid;
-  
-
+ 
  }
+
+
  .nav-bar{
-  border: 1px solid rgb(255, 250, 178);
-  height:90px;
-  flex-wrap: wrap;
-  position: sticky;
-  background-color: rgb(255, 219, 120) ;
-  display: flex;
-  justify-content: right;
+    display: flex;
+    grid-area:2/1/2/26;
+    background-color: rgb(255, 219, 120) ;
+    justify-content: right;
   padding-top: 30px;
   word-spacing: 20px;
   font-size: 15px;
   padding-left: 10px;
  }
- 
- /* .footer{
-  margin-top:135px;
-  align-items: end;
-  height:100px;
-  position: stick;
-  border: 1px solid rgb(255, 250, 178);
-  background-color: rgb(255, 250, 178) ;
-  display: flex;
-
- } */
-  
-  .box1{
-     display: flex;
-    grid-area:3/2/5/7; ;
-    border-radius: 20px;
-    box-shadow: 3px 5px 5px rgb(78, 78, 109);
-     background-color: rgb(255, 250, 178) ;
-     text-align: center;
-     padding: 20px;
-     font-size: 1em;
-     overflow: auto;
-     display: block;
-      justify-content: center;
-  }
-  .box2{
-     display: flex;
-    grid-area: 8/5/6/10;
-    border-radius: 20px;
-    box-shadow: 3px 5px 5px rgb(78, 78, 109);
-     background-color: rgb(255, 250, 178) ;
-     padding: 20px;
-     text-align: center;
-     overflow: auto;
-     font-size: 1em;
-     overflow: auto;
-     display: block;
-      justify-content: center;
-  }
-   .box3{
-     display: flex;
-    grid-area:3/8/5/13;
-     background-color: rgb(255, 250, 178)  ;
-      box-shadow: 3px 5px 5px rgb(78, 78, 109);
+ .box1{
+display: flex;
+grid-area:4/4/9/11;
+ background-color: rgb(255, 250, 178)  ;
+ border-radius: 20px;
+ box-shadow: 3px 5px 5px rgb(78, 78, 109);
       border-radius: 20px;
        padding: 20px;
       display: block;
-       justify-content: center;
-       text-align: center;
        font-size: 1em;
        overflow: auto;
-    
-     
-  }
-  .box4{
-   display: flex;
-   grid-area: 7/14/7/24;
-    padding: 20px;
-      display: block;
-       justify-content: center;
-       text-align: center;
+       max-width: 100%;
+ }
+  .box2{
+display: flex;
+grid-area:4/13/9/20;
+ background-color: rgb(255, 250, 178)  ;
+ border-radius: 20px;
+ box-shadow: 3px 5px 5px rgb(78, 78, 109);
+      border-radius: 20px;
+        padding: 20px;
+       font-size: 1em;
+       overflow: auto;
+ } 
+
+ input, textarea{
+  width: 100%;
+
+ }
+
+ form{
+  width: 100%;
+ }
 
 
-  }
-  .icon{
-    display: flex;
-    grid-area: 3/16/7/23;
-    border-radius: 90%;
-     background-color: rgb(255, 250, 175) ;
-     border: 5px solid rgb(221, 221, 159);
-     justify-content: center;
-  align-items: center;
-  }
-  #icon{
+ button:hover {
+ width: 100px;
+background-color: #000000;
+color: white;
+cursor: pointer;
+}
+
+input:focus, textarea:focus {
+border-color: #ff8265;
+outline: none;
+}
+
+#icon{
     display: flex;
     flex-direction: right;
     align-items: flex-end;
    margin-right: 1150px;
-   margin-bottom: 50px;
-  }
+   margin-bottom: 20px;
+  
+
+  } 
   .footer{
     display: flex;
-    grid-area: 9/1/9/25;
+    grid-area: 10/1/10/25;
     background-color:   rgb(255, 219, 120) ;
      text-align: center;
      justify-content: center;
      font-style: italic;
      font-size: smaller;
      padding-top: 20px;
-  }
+  } 
 
  .container{
-  background-color: rgb(255, 255, 255);
+  /*  grid-template-columns: repeat( 5fr,10*);
+  grid-template-rows: repeat( auto, 100px) */
+   grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ; 
+   grid-template-rows:auto  90px 100px 100px 100px 100px 100px 100px 75px 60px;
+  display:grid;
+  
+
  }
  a{
   color: rgb(175, 92, 174);
@@ -135,15 +114,15 @@
  a:hover{
   color: rgb(255, 0, 238);
  }
- .description{
-  padding:10px ;
- }
-
+ 
+ 
     </style>
 </head>
 <body>
-  <nav class="nav-bar">
-    <img id="icon" src="icon.png" alt="icon"
+   
+    <div class="container">
+      <nav class="nav-bar">
+     <img id="icon" src="icon.png" alt="icon"
     width=" 50px"
     heifght="10px">
       <a href="home.html">Home</a> &nbsp;
@@ -152,35 +131,55 @@
       <a href="projects.html">projects </a>  &nbsp;
        <a href="projects.html">resume</a> &nbsp;
     </nav>
-  <div class="container">
-  <!--Show different projects and -->
     <section class="box1">
-    <h3>Experince in javascript</h3>
-    <p>I am also Experinced in java script for web devoplment </p>
-      
+      <h3>Contact info</h3>
+      <p>
+
+      </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.669906336926!2d-112.2951638569338!3d33.535966961037325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4104080e38d9%3A0x1fbd2919e78fa444!2sWest-MEC%20-%20Central%20Campus!5e0!3m2!1sen!2sus!4v1766097874262!5m2!1sen!2sus"
+ width="100%"
+ height="450"
+  style="border:0;"
+   allowfullscreen="" 
+   loading="lazy" 
+   referrerpolicy="no-referrer-when-downgrade">
+
+</iframe>
     </section>
     <section class="box2">
-   <h3>Cetifed in CSS </h3>
-   <p> I am cetrefied in CSS and have much experince in.</p>
+    <form>
+            <legend><h3>Feedback</h3></legend>
+            <br>
+            <label for="fn">First name</label>
+            <input type="text" name="firstname" id="fn" required>
+            <br>
+            <br>
+            <label for="em"> Email</label>
+            <input for="text" name="email" id="em" required placeholder="@icloud.com">
+            <br>
+            <br>
+            <label for="sb">Subject</label>
+            <input for="text" name="Subject" id="sb" placeholder="Subject" >
+            
+            <br>
+            <br>
+            <label for="g">gender</label>
+            <input type="text" name="gender" id="g">
+            <br>
+            <br>
+            comments
+            <textarea
+            placeholder="Your message"
+            required
+            name="message"
+            cols="20"
+            rows="5">
+          </textarea>
+          <br><br>
+          <button type="submit">Send Message</button>
+    </form>
     </section>
-  
-    <section class="box3">
-<h3>Cetifed in HTML </h3>
-<p> I  am ceterfied in html and have done plently of projects</p>
-    </section>
-    <section class="box4">
-       <h3> About Me</h3>
-     <p>"Hi, I’m Chris, a coder based in Az. I specialize in creating elegant,
-functional websites and applications. I am also non-binary and go by they/them pronouns please refer me as such."</p>
-     
-     </section>
-    <div class="icon">
-       <img src="icon.png" alt="icon"
-       width="300em"
-       height="300em">
-    </div>
-    
-    <footer class="footer">
+         <footer class="footer">
      
      &copy;<p>Chris's portfolio</p>
      &nbsp;
@@ -188,10 +187,4 @@ functional websites and applications. I am also non-binary and go by they/them p
      <!-- <p>According to all known laws of aviation, there is no way a bee should be able to fly</p> -->
     </footer>
     </div>
-
-
-
-
-
-</body>
-</html>
+    
