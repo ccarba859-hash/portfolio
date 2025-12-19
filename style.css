@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px
+ }
+ .container{
+  /*  grid-template-columns: repeat( 5fr,10*);
+  grid-template-rows: repeat( auto, 100px) */
+   grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ; 
+   grid-template-rows:auto 100px 100px 100px 100px 100px 100px 75px 60px;
+  display:grid;
+  
+
+ }
+ .nav-bar{
+  border: 1px solid rgb(255, 250, 178);
+  height:90px;
+  flex-wrap: wrap;
+  position: sticky;
+  background-color: rgb(255, 250, 178) ;
+  display: flex;
+  justify-content: right;
+  padding-top: 30px;
+  word-spacing: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+ }
