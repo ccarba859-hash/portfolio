@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Portfolio</title>
+    <style>
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px
+ }
+
+
+ .nav-bar{
+     display: flex; 
+    /* grid-area:2/1/2/26; */
+    background-color: rgb(255, 219, 120) ;
+    justify-content: right;
+  padding-top: 30px;
+  word-spacing: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+ }
+ 
+
+  .projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem;
+    gap: 2rem;
+  }
+
+  .project-card{
+    background-color:   rgb(255, 219, 120) ;
+    box-shadow: 0 1px 3px 1px lightgray;
+    padding: 1.1rem 1.2rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  main{
+    text-align: center;
+  }
+
+  main h1{
+    margin: 5px;
+  }
+ 
+#icon{
+    display: flex;
+    flex-direction: right;
+    align-items: flex-end;
+   margin-right: 1150px;
+   margin-bottom: 20px;
+  
+
+  } 
+  .footer{
+    display: flex;
+    grid-area: 36/1/26/35;
+    background-color:   rgb(255, 219, 120) ;
+     text-align: center;
+     justify-content: center;
+     font-style: italic;
+     font-size: smaller;
+     padding-top: 20px;
+  } 
+
+
+ a{
+  color: rgb(175, 92, 174);
+  text-decoration: none;
+ }
+ a:hover{
+  color: rgb(255, 0, 238);
+ }
+ .projects{
+    grid-area: 3/12;
+ }
+ img{
+  width:180px;
+  height:180px;
+  border-radius: 10px;
+ }
+ 
+ 
+ 
+    </style>
+</head>
+<body>
+    
+   
+   <nav class="nav-bar">
+     <img id="icon" src="icon.png" alt="icon"
+    width=" 50px"
+    heifght="10px">
+      <a href="home.html">Home</a> &nbsp;
+      <a href="about-me.html" >about</a> &nbsp;
+      <a href="contact.html">contact</a> &nbsp;
+      <a href="projects.html">projects </a>  &nbsp;
+       <a href="projects.html">resume</a> &nbsp;
+    </nav>
+    <main>
+
+      <h1>Projects</h1>
+        <section class="projects">
+            <a href="https://ccarba859-hash.github.io/voting-app/">
+              <div class="project-card">
+                <img src="images/voting.png" alt="voting">
+                <h3>Voting</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/Card-flip.png" alt="Card-flip">
+                <h3>Card-flip</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="https://ccarba859-hash.github.io/Text-form/">
+              <div class="project-card">
+                <img src="images\text-format.png" alt="text-format">
+                <h3>Text Formatter</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images\age.png" alt="age">
+                <h3>Age calcuater</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images\books.png" alt="book">
+                <h3> Book Manager</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/seating-chart.png" alt="chart">
+                <h3>seating chart</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/Eta.png" alt="Eta">
+                <h3>Eta Calculator</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/expense.png" alt=" expense">
+                <h3>Expense Tracker</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="https://ccarba859-hash.github.io/Mermory-game/">
+              <div class="project-card">
+                <img src="images/memory-game.png" alt="mernory-game">
+                <h3>mermory Game</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/monthly.png" alt="monthly">
+                <h3>Monthly Budget Planner</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/task.png" alt="task">
+                <h3>Task Manager</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/tech.png" alt="tech">
+                <h3>tech</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="https://ccarba859-hash.github.io/flip-card/">
+              <div class="project-card">
+                <img src="images/calc.png" alt="calc">
+                <h3>Calculator</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/number-game.png" alt="guessing">
+                <h3>Numer guessing game</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="images/speaker.png" alt="speaker">
+                <h3>speaker</h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+              </div>
+            </a>
+
+             <a href="">
+              <div class="project-card">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+              </div>
+            </a>
+        </section>
+
+      </main>
+    <footer class="footer">
+     
+     &copy;<p>Chris's portfolio</p>
+     &nbsp;
+     
+     <!-- <p>According to all known laws of aviation, there is no way a bee should be able to fly</p> -->
+    </footer>
+   </div>
